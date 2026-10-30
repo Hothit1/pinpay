@@ -15,6 +15,8 @@ for (const f of (await readdir(dir).catch(() => [])).filter((f) => f.endsWith(".
   const accounts = JSON.parse(await readFile(resolve(dir, f), "utf8"));
   // Delete children before the contract account so nothing is left orphaned.
   for (const { accountId, privateKey } of accounts.reverse()) {
+    // Keep the contract alive: the dashboard and explorer links point at it.
+    if (accountId.startsWith("pinpay-") && !process.env.SWEEP_CONTRACT) continue;
     try {
       await chain.account(accountId, privateKey).deleteAccount(master);
       console.log(`swept ${accountId}`);
