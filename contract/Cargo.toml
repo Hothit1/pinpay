@@ -1,0 +1,25 @@
+[package]
+name = "pinpay"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.86"
+license = "MIT"
+description = "Pay-per-result marketing escrow for autonomous agents on NEAR"
+repository = "https://github.com/Hothit1/pinpay"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "~5.17"
+
+[dev-dependencies]
+near-sdk = { version = "~5.17", features = ["unit-testing"] }
+
+[profile.release]
+codegen-units = 1
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+overflow-checks = true

@@ -1,0 +1,1291 @@
+{
+  "network": "testnet",
+  "generatedAt": "2026-10-30T09:00:06.615Z",
+  "synthetic": true,
+  "contractId": "pinpay-mvuqkf8f.pinpay-demo.testnet",
+  "oracle": "oracle-mvuqkf8f.pinpay-demo.testnet",
+  "shops": [
+    {
+      "name": "shop-lumen",
+      "accountId": "shop-lumen-mvuqkf8f.pinpay-demo.testnet",
+      "title": "Lumen Candles — autumn launch",
+      "campaignId": "0",
+      "refund": "645250000000000000000000",
+      "createTx": "3Hst6jnSdD9bAVgbp2HouHtuZAjwN8FsNBuf8DCjSTqg",
+      "closeTx": "64uEQ9KChTLehpRRjGnNCteom3ZeGQWkKxZMPfLb7jpC"
+    },
+    {
+      "name": "shop-trail",
+      "accountId": "shop-trail-mvuqkf8f.pinpay-demo.testnet",
+      "title": "Trailhead Coffee — cold brew",
+      "campaignId": "1",
+      "refund": "0",
+      "createTx": "Hev9qHB7ThdPEL4jk2LhSQLsaZYLFiBeZgdhSR1pA5UR",
+      "closeTx": "BuA4AZr1xrMWQUX4rjwdeiYivbmvQbeMGeJZhHdaC5KT"
+    }
+  ],
+  "agents": [
+    {
+      "name": "agent-muse",
+      "accountId": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "styles": [
+        "story",
+        "minimal"
+      ],
+      "balanceDelta": "275275480689295700000000"
+    },
+    {
+      "name": "agent-blitz",
+      "accountId": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "styles": [
+        "hype",
+        "deal"
+      ],
+      "balanceDelta": "312024705713952500000000"
+    },
+    {
+      "name": "agent-gen",
+      "accountId": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "styles": [
+        "minimal",
+        "hype",
+        "story",
+        "deal"
+      ],
+      "balanceDelta": "263024096065570900000000"
+    }
+  ],
+  "campaigns": [
+    {
+      "id": "0",
+      "shop": "shop-lumen-mvuqkf8f.pinpay-demo.testnet",
+      "oracle": "oracle-mvuqkf8f.pinpay-demo.testnet",
+      "title": "Lumen Candles — autumn launch",
+      "brief": "Hand-poured soy candles. Cozy, calm, giftable.",
+      "price_per_click": "750000000000000000000",
+      "budget_total": "1000000000000000000000000",
+      "budget_left": "0",
+      "deadline_ns": "1793350792799687167",
+      "status": "Closed",
+      "post_ids": [
+        "0",
+        "2",
+        "4",
+        "6",
+        "8",
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "posts": [
+        {
+          "id": "0",
+          "campaign_id": "0",
+          "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "8c1676c060a98a5ee8999e17c57cc56333d8dcf03c0b1fc9214f4d5d21ab0ed6",
+          "uri": "sim://feed/0/agent-muse/0",
+          "clicks_paid": "64",
+          "clicks_unpaid": "0",
+          "earned": "48000000000000000000000",
+          "impressions": 2554,
+          "clicks": 64,
+          "caption": "We built Lumen Candles for the quiet hours.",
+          "style": "story",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#2c3e50\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#f6d6ad\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">We built Lumen Candles</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">for the quiet hours.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#f6d6ad\" opacity=\"0.7\">Lumen Candles</text></svg>"
+        },
+        {
+          "id": "2",
+          "campaign_id": "0",
+          "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "08e4e3c0186a5fb4e8869929563dcbebc592260a34ca50700de3aecb6d7032f4",
+          "uri": "sim://feed/0/agent-blitz/0",
+          "clicks_paid": "19",
+          "clicks_unpaid": "0",
+          "earned": "14250000000000000000000",
+          "impressions": 2395,
+          "clicks": 19,
+          "caption": "🔥 Lumen Candles is HERE. Don't sleep on it!",
+          "style": "hype",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#ff3d6e\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#ffffff\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">🔥 Lumen Candles is</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">HERE. Don't sleep on</text><text x=\"80\" y=\"820\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">it!</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#ffffff\" opacity=\"0.7\">Lumen Candles</text></svg>"
+        },
+        {
+          "id": "4",
+          "campaign_id": "0",
+          "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "9c9b988eb02df4602177c65028cd81e9dd0f95795550b89b51b228dd066fca70",
+          "uri": "sim://feed/0/agent-gen/0",
+          "clicks_paid": "73",
+          "clicks_unpaid": "0",
+          "earned": "54750000000000000000000",
+          "impressions": 2552,
+          "clicks": 73,
+          "caption": "Less noise. Lumen Candles.",
+          "style": "minimal",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#f4f1ea\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#1f1f1f\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1f1f1f\">Less noise. Lumen</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1f1f1f\">Candles.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#1f1f1f\" opacity=\"0.7\">Lumen Candles</text></svg>"
+        },
+        {
+          "id": "6",
+          "campaign_id": "0",
+          "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "8c1676c060a98a5ee8999e17c57cc56333d8dcf03c0b1fc9214f4d5d21ab0ed6",
+          "uri": "sim://feed/0/agent-muse/1",
+          "clicks_paid": "62",
+          "clicks_unpaid": "0",
+          "earned": "46500000000000000000000",
+          "impressions": 2397,
+          "clicks": 62,
+          "caption": "We built Lumen Candles for the quiet hours.",
+          "style": "story",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#2c3e50\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#f6d6ad\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">We built Lumen Candles</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">for the quiet hours.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#f6d6ad\" opacity=\"0.7\">Lumen Candles</text></svg>"
+        },
+        {
+          "id": "8",
+          "campaign_id": "0",
+          "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "b7e9977305a70aaad7fcdb99b2ae155c9292ddad72240605a5c7e936dabac772",
+          "uri": "sim://feed/0/agent-blitz/1",
+          "clicks_paid": "33",
+          "clicks_unpaid": "0",
+          "earned": "24750000000000000000000",
+          "impressions": 2194,
+          "clicks": 33,
+          "caption": "Bundle & save on Lumen Candles — ends Sunday.",
+          "style": "deal",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#ffd23f\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#1a1a1a\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1a1a1a\">Bundle &amp; save on Lumen</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1a1a1a\">Candles — ends Sunday.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#1a1a1a\" opacity=\"0.7\">Lumen Candles</text></svg>"
+        },
+        {
+          "id": "10",
+          "campaign_id": "0",
+          "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "6a8b037dec21b5468e818ce8c96762f07d9da2a7d2e866fd587d5d6032901b62",
+          "uri": "sim://feed/0/agent-gen/1",
+          "clicks_paid": "75",
+          "clicks_unpaid": "0",
+          "earned": "56250000000000000000000",
+          "impressions": 2416,
+          "clicks": 75,
+          "caption": "Lumen Candles — made simple.",
+          "style": "minimal",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#f4f1ea\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#1f1f1f\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1f1f1f\">Lumen Candles — made</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1f1f1f\">simple.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#1f1f1f\" opacity=\"0.7\">Lumen Candles</text></svg>"
+        },
+        {
+          "id": "12",
+          "campaign_id": "0",
+          "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "8c1676c060a98a5ee8999e17c57cc56333d8dcf03c0b1fc9214f4d5d21ab0ed6",
+          "uri": "sim://feed/0/agent-muse/2",
+          "clicks_paid": "63",
+          "clicks_unpaid": "0",
+          "earned": "47250000000000000000000",
+          "impressions": 1808,
+          "clicks": 63,
+          "caption": "We built Lumen Candles for the quiet hours.",
+          "style": "story",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#2c3e50\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#f6d6ad\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">We built Lumen Candles</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">for the quiet hours.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#f6d6ad\" opacity=\"0.7\">Lumen Candles</text></svg>"
+        },
+        {
+          "id": "14",
+          "campaign_id": "0",
+          "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "cd8b27385ba96a4acb16281a89f4a19f7318af5e19b5c7fa7bc4f853a1d67718",
+          "uri": "sim://feed/0/agent-blitz/2",
+          "clicks_paid": "26",
+          "clicks_unpaid": "0",
+          "earned": "19500000000000000000000",
+          "impressions": 1769,
+          "clicks": 26,
+          "caption": "Lumen Candles: 20% off this week only.",
+          "style": "deal",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#ffd23f\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#1a1a1a\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1a1a1a\">Lumen Candles: 20% off</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1a1a1a\">this week only.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#1a1a1a\" opacity=\"0.7\">Lumen Candles</text></svg>"
+        },
+        {
+          "id": "16",
+          "campaign_id": "0",
+          "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "6a8b037dec21b5468e818ce8c96762f07d9da2a7d2e866fd587d5d6032901b62",
+          "uri": "sim://feed/0/agent-gen/2",
+          "clicks_paid": "58",
+          "clicks_unpaid": "0",
+          "earned": "43500000000000000000000",
+          "impressions": 2129,
+          "clicks": 58,
+          "caption": "Lumen Candles — made simple.",
+          "style": "minimal",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#f4f1ea\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#1f1f1f\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1f1f1f\">Lumen Candles — made</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1f1f1f\">simple.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#1f1f1f\" opacity=\"0.7\">Lumen Candles</text></svg>"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "shop": "shop-trail-mvuqkf8f.pinpay-demo.testnet",
+      "oracle": "oracle-mvuqkf8f.pinpay-demo.testnet",
+      "title": "Trailhead Coffee — cold brew",
+      "brief": "Cold brew cans for hikers. Energetic, outdoorsy.",
+      "price_per_click": "1250000000000000000000",
+      "budget_total": "500000000000000000000000",
+      "budget_left": "0",
+      "deadline_ns": "1793350795110883145",
+      "status": "Closed",
+      "post_ids": [
+        "1",
+        "3",
+        "5",
+        "7",
+        "9",
+        "11",
+        "13",
+        "15",
+        "17"
+      ],
+      "posts": [
+        {
+          "id": "1",
+          "campaign_id": "1",
+          "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "4f6f267e3363a68be71c55458c0dc3b393219b099615b1d6c7679908d5eb810a",
+          "uri": "sim://feed/1/agent-muse/0",
+          "clicks_paid": "27",
+          "clicks_unpaid": "4",
+          "earned": "33750000000000000000000",
+          "impressions": 2455,
+          "clicks": 31,
+          "caption": "The morning I found Trailhead Coffee, everything slowed down.",
+          "style": "story",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#2c3e50\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#f6d6ad\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">The morning I found</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">Trailhead Coffee,</text><text x=\"80\" y=\"820\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">everything slowed</text><text x=\"80\" y=\"910\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">down.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#f6d6ad\" opacity=\"0.7\">Trailhead Coffee</text></svg>"
+        },
+        {
+          "id": "3",
+          "campaign_id": "1",
+          "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "71d9539bafbfd303163ad506e6ac622d8582b4bb8987363dbf3250be825c6fff",
+          "uri": "sim://feed/1/agent-blitz/0",
+          "clicks_paid": "80",
+          "clicks_unpaid": "8",
+          "earned": "100000000000000000000000",
+          "impressions": 2579,
+          "clicks": 88,
+          "caption": "Everyone is talking about Trailhead Coffee 🚀",
+          "style": "hype",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#ff3d6e\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#ffffff\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">Everyone is talking</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">about Trailhead Coffee</text><text x=\"80\" y=\"820\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">🚀</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#ffffff\" opacity=\"0.7\">Trailhead Coffee</text></svg>"
+        },
+        {
+          "id": "5",
+          "campaign_id": "1",
+          "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "eb3c7d9064c46acac60df49dca19d3aa5bd35733d53f23d117a4a00dac0a0d25",
+          "uri": "sim://feed/1/agent-gen/0",
+          "clicks_paid": "27",
+          "clicks_unpaid": "3",
+          "earned": "33750000000000000000000",
+          "impressions": 2461,
+          "clicks": 30,
+          "caption": "Less noise. Trailhead Coffee.",
+          "style": "minimal",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#f4f1ea\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#1f1f1f\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1f1f1f\">Less noise. Trailhead</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#1f1f1f\">Coffee.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#1f1f1f\" opacity=\"0.7\">Trailhead Coffee</text></svg>"
+        },
+        {
+          "id": "7",
+          "campaign_id": "1",
+          "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "f2205a706ebaa1f821e9d6166ade0b366f6d59969e23f601432d78f77e31affb",
+          "uri": "sim://feed/1/agent-muse/1",
+          "clicks_paid": "37",
+          "clicks_unpaid": "4",
+          "earned": "46250000000000000000000",
+          "impressions": 2132,
+          "clicks": 41,
+          "caption": "A small ritual: Trailhead Coffee, every day.",
+          "style": "story",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#2c3e50\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#f6d6ad\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">A small ritual:</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">Trailhead Coffee,</text><text x=\"80\" y=\"820\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">every day.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#f6d6ad\" opacity=\"0.7\">Trailhead Coffee</text></svg>"
+        },
+        {
+          "id": "9",
+          "campaign_id": "1",
+          "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "1727b7c8e9e547a4e46ca915e98d7d6b5738256e751ecca60b37ae680258df5d",
+          "uri": "sim://feed/1/agent-blitz/1",
+          "clicks_paid": "62",
+          "clicks_unpaid": "5",
+          "earned": "77500000000000000000000",
+          "impressions": 2462,
+          "clicks": 67,
+          "caption": "Drop alert: Trailhead Coffee ⚡️",
+          "style": "hype",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#ff3d6e\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#ffffff\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">Drop alert: Trailhead</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">Coffee ⚡️</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#ffffff\" opacity=\"0.7\">Trailhead Coffee</text></svg>"
+        },
+        {
+          "id": "11",
+          "campaign_id": "1",
+          "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "4f6f267e3363a68be71c55458c0dc3b393219b099615b1d6c7679908d5eb810a",
+          "uri": "sim://feed/1/agent-gen/1",
+          "clicks_paid": "36",
+          "clicks_unpaid": "8",
+          "earned": "45000000000000000000000",
+          "impressions": 2102,
+          "clicks": 44,
+          "caption": "The morning I found Trailhead Coffee, everything slowed down.",
+          "style": "story",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#2c3e50\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#f6d6ad\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">The morning I found</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">Trailhead Coffee,</text><text x=\"80\" y=\"820\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">everything slowed</text><text x=\"80\" y=\"910\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">down.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#f6d6ad\" opacity=\"0.7\">Trailhead Coffee</text></svg>"
+        },
+        {
+          "id": "13",
+          "campaign_id": "1",
+          "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "f2205a706ebaa1f821e9d6166ade0b366f6d59969e23f601432d78f77e31affb",
+          "uri": "sim://feed/1/agent-muse/2",
+          "clicks_paid": "44",
+          "clicks_unpaid": "7",
+          "earned": "55000000000000000000000",
+          "impressions": 2256,
+          "clicks": 51,
+          "caption": "A small ritual: Trailhead Coffee, every day.",
+          "style": "story",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#2c3e50\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#f6d6ad\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">A small ritual:</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">Trailhead Coffee,</text><text x=\"80\" y=\"820\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">every day.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#f6d6ad\" opacity=\"0.7\">Trailhead Coffee</text></svg>"
+        },
+        {
+          "id": "15",
+          "campaign_id": "1",
+          "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "2fc72af8bf79c8f8bcbc8c711c0d571bba036170f365358313887b2409f7b8b8",
+          "uri": "sim://feed/1/agent-blitz/2",
+          "clicks_paid": "62",
+          "clicks_unpaid": "11",
+          "earned": "77500000000000000000000",
+          "impressions": 2156,
+          "clicks": 73,
+          "caption": "🔥 Trailhead Coffee is HERE. Don't sleep on it!",
+          "style": "hype",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#ff3d6e\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#ffffff\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">🔥 Trailhead Coffee is</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">HERE. Don't sleep on</text><text x=\"80\" y=\"820\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#ffffff\">it!</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#ffffff\" opacity=\"0.7\">Trailhead Coffee</text></svg>"
+        },
+        {
+          "id": "17",
+          "campaign_id": "1",
+          "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          "content_hash": "f2205a706ebaa1f821e9d6166ade0b366f6d59969e23f601432d78f77e31affb",
+          "uri": "sim://feed/1/agent-gen/2",
+          "clicks_paid": "25",
+          "clicks_unpaid": "26",
+          "earned": "31250000000000000000000",
+          "impressions": 2215,
+          "clicks": 51,
+          "caption": "A small ritual: Trailhead Coffee, every day.",
+          "style": "story",
+          "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1000 1500\"><rect width=\"1000\" height=\"1500\" fill=\"#2c3e50\"/><circle cx=\"820\" cy=\"260\" r=\"150\" fill=\"#f6d6ad\" opacity=\"0.12\"/><text x=\"80\" y=\"640\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">A small ritual:</text><text x=\"80\" y=\"730\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">Trailhead Coffee,</text><text x=\"80\" y=\"820\" font-size=\"72\" font-family=\"Georgia, serif\" fill=\"#f6d6ad\">every day.</text><text x=\"80\" y=\"1380\" font-size=\"44\" font-family=\"Helvetica, sans-serif\" fill=\"#f6d6ad\" opacity=\"0.7\">Trailhead Coffee</text></svg>"
+        }
+      ]
+    }
+  ],
+  "leaderboard": [
+    [
+      "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      {
+        "posts": "6",
+        "clicks": "282",
+        "earned": "313500000000000000000000"
+      }
+    ],
+    [
+      "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      {
+        "posts": "6",
+        "clicks": "297",
+        "earned": "276750000000000000000000"
+      }
+    ],
+    [
+      "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      {
+        "posts": "6",
+        "clicks": "294",
+        "earned": "264500000000000000000000"
+      }
+    ]
+  ],
+  "payouts": [
+    {
+      "round": 1,
+      "postId": "0",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 18,
+      "paid": "13500000000000000000000",
+      "txHash": "DSp96o6v7x4UhPFKdqYvVzg9mdvykgLuWKanaozxjKdK"
+    },
+    {
+      "round": 1,
+      "postId": "2",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 5,
+      "paid": "3750000000000000000000",
+      "txHash": "D2BXHNqVHf68oTpZMgTAuWLMC3fqSAfPX4WW7nYSFSae"
+    },
+    {
+      "round": 1,
+      "postId": "4",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 22,
+      "paid": "16500000000000000000000",
+      "txHash": "EpZ8ETamMxithZHBTytDEk3MwZAJfz1z64z6UGhKYTqN"
+    },
+    {
+      "round": 1,
+      "postId": "1",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 16,
+      "paid": "20000000000000000000000",
+      "txHash": "3h7oSL3WeyHMFVAZefTur8kwJNVggFoDFzULk31M36bW"
+    },
+    {
+      "round": 1,
+      "postId": "3",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 26,
+      "paid": "32500000000000000000000",
+      "txHash": "HkryMJ4jxGXTqsEMuBcd97UBQUQRP3RERgL2RXH7HQdc"
+    },
+    {
+      "round": 1,
+      "postId": "5",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 13,
+      "paid": "16250000000000000000000",
+      "txHash": "7wHmVo49YrRFpQYN7fuJo7EQHNXMnyUqG5zb2tfuAtXt"
+    },
+    {
+      "round": 2,
+      "postId": "0",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 39,
+      "paid": "15750000000000000000000",
+      "txHash": "7aVDE6p1sKaJdMzTK7heNkffwUccYsXEiNDmPEpGn5vT"
+    },
+    {
+      "round": 2,
+      "postId": "2",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 7,
+      "paid": "1500000000000000000000",
+      "txHash": "2xzo3khbqbAMrzFdxA5s75kfQLbGE9NHBcNpCs29i4fV"
+    },
+    {
+      "round": 2,
+      "postId": "4",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 44,
+      "paid": "16500000000000000000000",
+      "txHash": "C7tg3erq55uyF8V9mCLLymqHXdisHRb9Jq8B5ookj2Zt"
+    },
+    {
+      "round": 2,
+      "postId": "6",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 28,
+      "paid": "21000000000000000000000",
+      "txHash": "GjyGU3VA43EBpmvwGxFr1pxANmtLUdHKMaHUJpUBQ6v5"
+    },
+    {
+      "round": 2,
+      "postId": "8",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 10,
+      "paid": "7500000000000000000000",
+      "txHash": "vYnicVun8wKwRMiEmbDfwJvwKjp7ADcSLNfgPTauSKD"
+    },
+    {
+      "round": 2,
+      "postId": "10",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 29,
+      "paid": "21750000000000000000000",
+      "txHash": "AKNivPtNzMjLCs2fTjhYnsXzBdtpLeGYY6AU3YSQov2K"
+    },
+    {
+      "round": 2,
+      "postId": "1",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 20,
+      "paid": "5000000000000000000000",
+      "txHash": "7jriC9Hvv9X8VgPFHG6FPreN9CT3UPTvbCoinpX7pkGN"
+    },
+    {
+      "round": 2,
+      "postId": "3",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 47,
+      "paid": "26250000000000000000000",
+      "txHash": "EwnXLoJoR4kisTSzrBcdE6GLs1XZwpp1byUSp5DJL6wv"
+    },
+    {
+      "round": 2,
+      "postId": "5",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 22,
+      "paid": "11250000000000000000000",
+      "txHash": "Aykyosd7HVJETPw4FCcdHCU7GBYxhaahHoQDfPjy2SMF"
+    },
+    {
+      "round": 2,
+      "postId": "7",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 10,
+      "paid": "12500000000000000000000",
+      "txHash": "CXspsNtbbEeY4kaCyHFgC12ruUFVH9ymf1Q2di679Cuu"
+    },
+    {
+      "round": 2,
+      "postId": "9",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 30,
+      "paid": "37500000000000000000000",
+      "txHash": "Bb6cpLoe4kyXSwnCKf6wcf94V6jXb2gqAF4eGQcShWwH"
+    },
+    {
+      "round": 2,
+      "postId": "11",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 14,
+      "paid": "17500000000000000000000",
+      "txHash": "4yG41RaML9T4irBJ43X1LvauRyYpz1121JQVkBQzknYN"
+    },
+    {
+      "round": 3,
+      "postId": "0",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 51,
+      "paid": "9000000000000000000000",
+      "txHash": "J96aoyqzngQ789SERCsiR8enLDPkiYEcCDgK4uvTDCxy"
+    },
+    {
+      "round": 3,
+      "postId": "2",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 15,
+      "paid": "6000000000000000000000",
+      "txHash": "9TxtyL4cqeXi6kS82D7A1Yy2STN7KUHc6wge5oeteiR2"
+    },
+    {
+      "round": 3,
+      "postId": "4",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 61,
+      "paid": "12750000000000000000000",
+      "txHash": "9bd4o39UpzrPmMBYmvuGvKCrLVE1GqbGkGmc1Y8SjCpa"
+    },
+    {
+      "round": 3,
+      "postId": "6",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 44,
+      "paid": "12000000000000000000000",
+      "txHash": "7UajYzmvCxzJuFKFNxtBJfGY5JtdTWUyE4XdvzYW8TnQ"
+    },
+    {
+      "round": 3,
+      "postId": "8",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 16,
+      "paid": "4500000000000000000000",
+      "txHash": "6J8J5mNQQyQwmqoA79EQzVXxDbsuB4VStRGw181z2Bnx"
+    },
+    {
+      "round": 3,
+      "postId": "10",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 53,
+      "paid": "18000000000000000000000",
+      "txHash": "A2DCv6wZ3wXhCwEpWdbGj7uXiZfdgheekeaLZ1EyCvfW"
+    },
+    {
+      "round": 3,
+      "postId": "12",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 21,
+      "paid": "15750000000000000000000",
+      "txHash": "GyDN9hUvz6ZFTVHrJdkYL2RQcga48dLDMuCDto2RutVm"
+    },
+    {
+      "round": 3,
+      "postId": "14",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 14,
+      "paid": "10500000000000000000000",
+      "txHash": "3KQGsfhMsgooX225UhLHS5EaZ52C4jBzPKKhBfHRxkUn"
+    },
+    {
+      "round": 3,
+      "postId": "16",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 29,
+      "paid": "21750000000000000000000",
+      "txHash": "ESN9nCm4A8GmomPBCNfuuL1BZuKjQ4GZ8yxm2Gg8id5P"
+    },
+    {
+      "round": 3,
+      "postId": "1",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 23,
+      "paid": "3750000000000000000000",
+      "txHash": "8dHGGNs4QMLkAJDRzXkArPtgk1GVTVTb9tiUCpM74Ptz"
+    },
+    {
+      "round": 3,
+      "postId": "3",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 60,
+      "paid": "16250000000000000000000",
+      "txHash": "DQ6ZDBVHdgfx41nzDauqq39sTYmvCxzecWiL75jP6vUz"
+    },
+    {
+      "round": 3,
+      "postId": "5",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 24,
+      "paid": "2500000000000000000000",
+      "txHash": "Ccj4sdFAQKBbHKaVSbdZuBxF5qqhdahWq8ikZfCJq2qy"
+    },
+    {
+      "round": 3,
+      "postId": "7",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 25,
+      "paid": "18750000000000000000000",
+      "txHash": "3Gs7sPdgk2wKzNoUJrb6F2G238Gb5B16u6ZGJ3Nx9jdB"
+    },
+    {
+      "round": 3,
+      "postId": "9",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 48,
+      "paid": "22500000000000000000000",
+      "txHash": "4g6qBdL1irVXxcSEd53F3FKZy5mFUa1YucyVVm2gWq6i"
+    },
+    {
+      "round": 3,
+      "postId": "11",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 23,
+      "paid": "11250000000000000000000",
+      "txHash": "4p7dBWJEQqV6ygRJqe84yNS3BJbJEJgmpQZQ6fnhoTck"
+    },
+    {
+      "round": 3,
+      "postId": "13",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 24,
+      "paid": "30000000000000000000000",
+      "txHash": "5EptbrJuUnNTQqHyJqM5ZucehGxQJuwGfoqkv7adufFy"
+    },
+    {
+      "round": 3,
+      "postId": "15",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 30,
+      "paid": "37500000000000000000000",
+      "txHash": "5W4uTeuR4GKkeWpnaeBWp91GwiTgYYackw3Tzvyajq91"
+    },
+    {
+      "round": 3,
+      "postId": "17",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 21,
+      "paid": "26250000000000000000000",
+      "txHash": "7ppKjWiHeKszESGuU2hjo8kRTpDGHhfBd6rYjUG5GWjZ"
+    },
+    {
+      "round": 4,
+      "postId": "0",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 58,
+      "paid": "5250000000000000000000",
+      "txHash": "2Xw24WRdcjg5iEYENJ6UYczQa7FpfWHFSuPM4cw1n8aZ"
+    },
+    {
+      "round": 4,
+      "postId": "2",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 17,
+      "paid": "1500000000000000000000",
+      "txHash": "7ZqRRfhNei6buphE9oB9rbH23pCR981nDX5vH5CMJLYr"
+    },
+    {
+      "round": 4,
+      "postId": "4",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 66,
+      "paid": "3750000000000000000000",
+      "txHash": "6GYhgqRiWNRKvW6tfbK2xf6vd5X5pvv3taDLssfCUjfw"
+    },
+    {
+      "round": 4,
+      "postId": "6",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 59,
+      "paid": "11250000000000000000000",
+      "txHash": "AHkdALTSWvvEZECrSV969KfBXyh6nQGBVX5yH2B138oJ"
+    },
+    {
+      "round": 4,
+      "postId": "8",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 24,
+      "paid": "6000000000000000000000",
+      "txHash": "4zfxqW7Ji144e3AMbrhtWkR7HXTveB1pjoadPU3c3uNm"
+    },
+    {
+      "round": 4,
+      "postId": "10",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 65,
+      "paid": "9000000000000000000000",
+      "txHash": "ExhcuXDsPMi1GYTiaTQu69AsQQizZJ6KTeLenRpdBFv4"
+    },
+    {
+      "round": 4,
+      "postId": "12",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 46,
+      "paid": "18750000000000000000000",
+      "txHash": "dGj9a4yndpto8yFvNmBpmprRzSN9FfS2Z1rVmjMy6Fc"
+    },
+    {
+      "round": 4,
+      "postId": "14",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 20,
+      "paid": "4500000000000000000000",
+      "txHash": "B1UD8vCo9AkYBNqCt676AnioyeBUoN2cSQsjMNcEzQWn"
+    },
+    {
+      "round": 4,
+      "postId": "16",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 47,
+      "paid": "13500000000000000000000",
+      "txHash": "3imPRZ1konzmCy7sUMERm2SVa5qScaqFtHssvKs3j6Nu"
+    },
+    {
+      "round": 4,
+      "postId": "1",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 27,
+      "paid": "5000000000000000000000",
+      "txHash": "EMp4WzeXsSbxZZUHf5f2sLCrN7kfWU2sNZq1LFrdebbz"
+    },
+    {
+      "round": 4,
+      "postId": "3",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 80,
+      "paid": "25000000000000000000000",
+      "txHash": "5Jj1RD2P7yV4mivySA6JYjPuFHGL6MVsCrTZfZhmxjyG"
+    },
+    {
+      "round": 4,
+      "postId": "5",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 27,
+      "paid": "3750000000000000000000",
+      "txHash": "D8xxKHWQMhi4fSdyMMrAFy1ZgLhBvqgjM99sf9GxMWw9"
+    },
+    {
+      "round": 4,
+      "postId": "7",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 37,
+      "paid": "15000000000000000000000",
+      "txHash": "3zPhbyakGWJ5uJavFLdi3ks2Q239Qwjz3wnn5typDqBs"
+    },
+    {
+      "round": 4,
+      "postId": "9",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 62,
+      "paid": "17500000000000000000000",
+      "txHash": "EbbEeAuoHsLz2bgMArr2gcZ4K68QsftD45KMgZQNjcpE"
+    },
+    {
+      "round": 4,
+      "postId": "11",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 36,
+      "paid": "16250000000000000000000",
+      "txHash": "LEJ2ptRKUYdLv5KVTsPSmJamuyGxvXKFRMnXD7jzRN9"
+    },
+    {
+      "round": 4,
+      "postId": "13",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 44,
+      "paid": "25000000000000000000000",
+      "txHash": "3pg8SNPWD7hkZR5sTWAZ7yYJTruLkZXPgkkj4G2tnq8r"
+    },
+    {
+      "round": 4,
+      "postId": "15",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 62,
+      "paid": "40000000000000000000000",
+      "txHash": "92s24fxUQjXs7QU37ozNJwNve2FU6u3cZbo8yiHf741t"
+    },
+    {
+      "round": 4,
+      "postId": "17",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 39,
+      "paid": "5000000000000000000000",
+      "txHash": "4V4YiJ91UbJGxagEvPkD4m6svQ6iGGvi9FT5nFLTHkEE"
+    },
+    {
+      "round": 5,
+      "postId": "0",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 64,
+      "paid": "4500000000000000000000",
+      "txHash": "E4mu9Aqcprpn8gVtw2VefsUHqrHPRfXJbJpg2FMs44KA"
+    },
+    {
+      "round": 5,
+      "postId": "2",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 19,
+      "paid": "1500000000000000000000",
+      "txHash": "ACxMzEV2o9imUnWdnrtdZY7FFZ5UnSQBe9zXjTBeeycw"
+    },
+    {
+      "round": 5,
+      "postId": "4",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 73,
+      "paid": "5250000000000000000000",
+      "txHash": "CSvsQ1FmiXQiUm1HeGbTdkqeEsnQYN5Pe1b7vrt5EyJn"
+    },
+    {
+      "round": 5,
+      "postId": "6",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 62,
+      "paid": "2250000000000000000000",
+      "txHash": "Exn6fvGBPat939PQfJmRsgMBSCSU4fBn7StfWfEbb6EF"
+    },
+    {
+      "round": 5,
+      "postId": "8",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 33,
+      "paid": "6750000000000000000000",
+      "txHash": "89n5sEP8EKpnaKVcETMJNVmzPdr3ACYpYWQkCZTuv5sj"
+    },
+    {
+      "round": 5,
+      "postId": "10",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 75,
+      "paid": "7500000000000000000000",
+      "txHash": "GMRt16MvFpQ5zcf3UpsVx85aCyP4XzNU5FUk28YPqikr"
+    },
+    {
+      "round": 5,
+      "postId": "12",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 63,
+      "paid": "12750000000000000000000",
+      "txHash": "BGMKPXdpG4BsLdxs1dUfHzANKdqQXRyYvT7po15GFZee"
+    },
+    {
+      "round": 5,
+      "postId": "14",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 26,
+      "paid": "4500000000000000000000",
+      "txHash": "7Xzajpkd1yagLST6MjLEXsCtvYoiGF1VJ6pcffxeHDVK"
+    },
+    {
+      "round": 5,
+      "postId": "16",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 58,
+      "paid": "8250000000000000000000",
+      "txHash": "FCDmwWqobehyY7JWv6vRKoAxBDPhFAHiJezWEUqs5Eqd"
+    },
+    {
+      "round": 5,
+      "postId": "1",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 31,
+      "paid": "0",
+      "txHash": "EQxkDKpGETvugMTHtrFt39CZz5cVYSsagYs14fi1dyCz"
+    },
+    {
+      "round": 5,
+      "postId": "3",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 88,
+      "paid": "0",
+      "txHash": "6KyTh8XvguV6fd2zvr29TTM2Yg9HayLy7wJbGkbB859m"
+    },
+    {
+      "round": 5,
+      "postId": "5",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 30,
+      "paid": "0",
+      "txHash": "26tmgUhD4QfYcEnTwmJ9vjRAH3JdiP2bwNyyFKKj6Mnk"
+    },
+    {
+      "round": 5,
+      "postId": "7",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 41,
+      "paid": "0",
+      "txHash": "BCABGDvCjBJYmoES4Ukfx8CxCvnGPb7HZykNzzpcyEWx"
+    },
+    {
+      "round": 5,
+      "postId": "9",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 67,
+      "paid": "0",
+      "txHash": "8tVNMt3PE9QkGbD3z5FEe1axU3ZytzveDp1Gv1mLBLC4"
+    },
+    {
+      "round": 5,
+      "postId": "11",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 44,
+      "paid": "0",
+      "txHash": "44mzMyqcPYrhoKeqqv4dUGrmtJZTFbFtwLSGgzoDwd3U"
+    },
+    {
+      "round": 5,
+      "postId": "13",
+      "agent": "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 51,
+      "paid": "0",
+      "txHash": "uLc8gXgz2cc5nUhopAR7dNZ9uEfPENxyYH6PqQujDjz"
+    },
+    {
+      "round": 5,
+      "postId": "15",
+      "agent": "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 73,
+      "paid": "0",
+      "txHash": "Hs5gr5ZzRDwdE3wFFgNDnZAGdadT5ucQr4EDghVjR7H3"
+    },
+    {
+      "round": 5,
+      "postId": "17",
+      "agent": "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+      "totalClicks": 51,
+      "paid": "0",
+      "txHash": "DgwwnQqjeHh79JS6VDujMt5RX5R81HKRxMnyBt5pd7sF"
+    }
+  ],
+  "timeline": [
+    {
+      "round": 1,
+      "decisions": {
+        "agent-muse": [
+          {
+            "campaign": "0",
+            "action": "post",
+            "style": "story",
+            "postId": "0",
+            "ev": "18750000000000000000000"
+          },
+          {
+            "campaign": "1",
+            "action": "post",
+            "style": "story",
+            "postId": "1",
+            "ev": "31250000000000000000000"
+          }
+        ],
+        "agent-blitz": [
+          {
+            "campaign": "0",
+            "action": "post",
+            "style": "hype",
+            "postId": "2",
+            "ev": "18750000000000000000000"
+          },
+          {
+            "campaign": "1",
+            "action": "post",
+            "style": "hype",
+            "postId": "3",
+            "ev": "31250000000000000000000"
+          }
+        ],
+        "agent-gen": [
+          {
+            "campaign": "0",
+            "action": "post",
+            "style": "minimal",
+            "postId": "4",
+            "ev": "18750000000000000000000"
+          },
+          {
+            "campaign": "1",
+            "action": "post",
+            "style": "minimal",
+            "postId": "5",
+            "ev": "31250000000000000000000"
+          }
+        ]
+      },
+      "leaderboard": [
+        [
+          "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "2",
+            "clicks": "31",
+            "earned": "36250000000000000000000"
+          }
+        ],
+        [
+          "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "2",
+            "clicks": "34",
+            "earned": "33500000000000000000000"
+          }
+        ],
+        [
+          "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "2",
+            "clicks": "35",
+            "earned": "32750000000000000000000"
+          }
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "decisions": {
+        "agent-muse": [
+          {
+            "campaign": "0",
+            "action": "post",
+            "style": "story",
+            "postId": "6",
+            "ev": "35250000000000000000000"
+          },
+          {
+            "campaign": "1",
+            "action": "post",
+            "style": "story",
+            "postId": "7",
+            "ev": "50000000000000000000000"
+          }
+        ],
+        "agent-blitz": [
+          {
+            "campaign": "0",
+            "action": "post",
+            "style": "deal",
+            "postId": "8",
+            "ev": "18750000000000000000000"
+          },
+          {
+            "campaign": "1",
+            "action": "post",
+            "style": "hype",
+            "postId": "9",
+            "ev": "101250000000000000000000"
+          }
+        ],
+        "agent-gen": [
+          {
+            "campaign": "0",
+            "action": "post",
+            "style": "minimal",
+            "postId": "10",
+            "ev": "51750000000000000000000"
+          },
+          {
+            "campaign": "1",
+            "action": "post",
+            "style": "story",
+            "postId": "11",
+            "ev": "31250000000000000000000"
+          }
+        ]
+      },
+      "leaderboard": [
+        [
+          "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "4",
+            "clicks": "94",
+            "earned": "109000000000000000000000"
+          }
+        ],
+        [
+          "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "4",
+            "clicks": "109",
+            "earned": "99750000000000000000000"
+          }
+        ],
+        [
+          "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "4",
+            "clicks": "97",
+            "earned": "87750000000000000000000"
+          }
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "decisions": {
+        "agent-muse": [
+          {
+            "campaign": "0",
+            "action": "post",
+            "style": "story",
+            "postId": "12",
+            "ev": "48750000000000000000000"
+          },
+          {
+            "campaign": "1",
+            "action": "post",
+            "style": "story",
+            "postId": "13",
+            "ev": "40000000000000000000000"
+          }
+        ],
+        "agent-blitz": [
+          {
+            "campaign": "0",
+            "action": "post",
+            "style": "deal",
+            "postId": "14",
+            "ev": "19500000000000000000000"
+          },
+          {
+            "campaign": "1",
+            "action": "post",
+            "style": "hype",
+            "postId": "15",
+            "ev": "93750000000000000000000"
+          }
+        ],
+        "agent-gen": [
+          {
+            "campaign": "0",
+            "action": "post",
+            "style": "minimal",
+            "postId": "16",
+            "ev": "54750000000000000000000"
+          },
+          {
+            "campaign": "1",
+            "action": "post",
+            "style": "story",
+            "postId": "17",
+            "ev": "58750000000000000000000"
+          }
+        ]
+      },
+      "leaderboard": [
+        [
+          "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "6",
+            "clicks": "183",
+            "earned": "206250000000000000000000"
+          }
+        ],
+        [
+          "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "6",
+            "clicks": "211",
+            "earned": "192250000000000000000000"
+          }
+        ],
+        [
+          "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "6",
+            "clicks": "188",
+            "earned": "177000000000000000000000"
+          }
+        ]
+      ]
+    },
+    {
+      "round": 4,
+      "decisions": {
+        "agent-muse": [],
+        "agent-blitz": [],
+        "agent-gen": []
+      },
+      "leaderboard": [
+        [
+          "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "6",
+            "clicks": "265",
+            "earned": "300750000000000000000000"
+          }
+        ],
+        [
+          "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "6",
+            "clicks": "271",
+            "earned": "257250000000000000000000"
+          }
+        ],
+        [
+          "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "6",
+            "clicks": "266",
+            "earned": "243500000000000000000000"
+          }
+        ]
+      ]
+    },
+    {
+      "round": 5,
+      "decisions": {
+        "agent-muse": [],
+        "agent-blitz": [],
+        "agent-gen": []
+      },
+      "leaderboard": [
+        [
+          "agent-blitz-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "6",
+            "clicks": "282",
+            "earned": "313500000000000000000000"
+          }
+        ],
+        [
+          "agent-muse-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "6",
+            "clicks": "297",
+            "earned": "276750000000000000000000"
+          }
+        ],
+        [
+          "agent-gen-mvuqkf8f.pinpay-demo.testnet",
+          {
+            "posts": "6",
+            "clicks": "294",
+            "earned": "264500000000000000000000"
+          }
+        ]
+      ]
+    }
+  ]
+}

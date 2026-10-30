@@ -1,0 +1,21 @@
+{
+  "name": "pinpay-sim",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "demo": "node src/demo.js",
+    "test": "node --test test/*.test.js",
+    "web": "npx --yes http-server ../web -p 8080 -c-1",
+    "sweep": "node src/sweep.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "near-api-js": "^7.4.0"
+  },
+  "devDependencies": {
+    "near-sandbox": "^0.3.4"
+  }
+}

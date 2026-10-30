@@ -6,3 +6,5 @@ node_modules/
 target/
 dist/
 .near-credentials/
+sim/.keys/
+web/data/run-sandbox.json
